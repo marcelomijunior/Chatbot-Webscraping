@@ -1,0 +1,71 @@
+{"intents": [
+        {
+                "tag": "boas-vindas",
+                "patterns": ["Oi", "Como você está", "Tem alguém ai?", "Olá", "Bom dia", "Boa tarde","Boa noite", "Tudo bem?", "Como vai?", "Pode me ajudar?", "E ai", "Fala tu", "Fala comigo", "Ei"],
+                "responses": ["Olá! Sou seu BOT do cinema! O que você deseja?", "Sou o  Bot do cinema! Bom te ver novamente por aqui! Como posso te ajudar?", "Olá, sou o Bot do cinema! Temos acentos disponíveis em todas as salas!",
+                         "Oi, sou o bot do cinema! Gostaria de indicar o filme que irá assistir?", "Oi, prazer, sou o bot do cinema e gostaria de te ajudar!","Olá, estou aqui para te oferecer o melhor serviço em nosso cinema!",
+                        "Bom dia, sou o bot do cinema! Em que posso ajudar?", "Boa tarde, sou o bot do cinema, em que posso ser útil?", "Boa noite, sou o bot do cinema! Em que posso ajudar?", "Olá, sou o bot do cinema! Estou aqui para agilizar o seu atendimento, podemos começar?"],
+                "context_set": ""
+        },
+        {
+                "tag": "ate-mais",
+                "patterns": ["tchau", "Até mais", "Estou de partida", "Vou embora", "Tenha um bom dia", "Tenha uma boa noite", "Tenha uma boa tarde", "Adeus", "Até um outro dia", "Flw", "bye", "Até uma outra hora","Até um outro dia"],
+                "responses": ["Que pena! :( Até mais!", "Espero ter ajudado, tenha um bom filme", "Tchau :D!", "Espero ter ajudado, até mais!", "Tchau, se divirta!", "Tchau, aproveite o filme", "Agradecemos a preferência!", "Tenha uma ótima sessão!", "Aproveite a pipoca quentinha e tenha um bom filme :D!",
+                "Aproveite o filme, nossas salas estão a sua espera :D!"],
+                "context_set": ""
+        },
+        {
+                "tag": "atender",
+                "patterns": ["Quais os filmes em cartaz?", "Pode me dizer os filmes em cartaz?", "O que tem em cartaz?", "Me diga os filmes em cartaz", "Me indique os filmes", "Quais os filmes?",
+                "Pode me dizer os filmes em cartaz?", "Gostaria de saber os filmes", "Fale os filmes", "Por favor, quais os filmes?", "O que está passando hoje?"],
+                "responses": ["Temos alguns fimes em cartaz: Her, Coringa, Mulan, Vingadores.", "Você pode assisitir os seguintes filmes: Her, Coringa, Mulan, Vingadores. ", "Ingressos disponíveis para os filmes: Her, Coringa, Mulan, Vingadores.",
+                "Hoje você pode assistir: Her, Coringa, Mulan, Vingadores.", "Claro, estão em cartaz: Her, Coringa, Mulan, Vingadores.", "Filmes em cartaz: Her, Coringa, Mulan, Vingadores.",
+                "Temos vários filmes em cartaz: Her, Coringa, Mulan, Vingadores.", "Que tal assistir um desses filmes: Her, Coringa, Mulan, Vingadores.", "Esses são os filmes em cartaz: Her, Coringa, Mulan, Vingadores.",
+                "Nosso filmes em cartaz hoje são: Her, Coringa, Mulan, Vingadores.","Esse é nosso catálogo de filmes: Her, Coringa, Mulan, Vingadores.", "Os filmes exibidos hoje são: Her, Coringa, Mulan, Vingadores."],
+                "context_set": ""
+        },
+        {
+                "tag": "filme",
+                "patterns": ["Her", "Coringa", "Mulan", "Vingadores", "Quero Her", "Quero Mulan", "Quero Vingadores", "Quero Coringa", "Assistir Her", "Assistir Coringa", "Assistir Vingadores", "Assistir Mulan","Gostaria de assistir Her", "Gostaria de assistir Coringa", "Gostaria de assistir Mulan", "Gostaria de assistir Vingadores"],
+                "responses": ["Olha, esse é um ótimo filme!", "Que ótima escolha!", "Você escolheu um ótimo filme!", "Você fez uma boa escolha :D", "Adoro esse filme! ótima escolha!", "Você tem bom gosto, adoro esse filme!", "Adorei sua escolha!",
+                "Você escolheu muito bem!", "Eu também escolheria esse filme!", "Eu não faria escolha melhor!"],
+                "context_set": ""
+        },
+        {
+                "tag": "nome",
+                "patterns": ["Qual o seu nome?", "Como você se chama?", "Seu nome?", "nome?", "Como se chama?", "Me fale seu nome!","Poderia me dizer seu nome?", "Como posso te chamar?", "Me informe seu nome por gentileza?","Possui algum nome?"],
+                "responses": ["Sou o Bot, seu atende virtual, prazer em te conhecer", "Me chamo Bot!", "Pode me chamar de Bot, Chat Bot", "Sou Bot, seu amigo virtual, em que posso te ajudar?", "Olá, sou o Bot, o robô do grupo CineMax, prazer em conhecer!", "Olá sou seu assistente virtual do CineMax, bom te ver aqui!","Prazer sou o Robô assistente da CineMax, seja bem-vindo","Seja bem-vindo, sou o assitente virtual da CineMax e estou para lhe passar as infirmações do cinema!","Bem-vindo ao chat virtual do CineMax, prazer em te-lo conosco","Sou o Bot, seu atende virtual, fui treinado para te informar tudo sobre a CineMax!"],
+                "context_set": ""
+        },
+        {
+                "tag": "pagamento",
+                "patterns": ["Quanto é o ingresso?", "Quanto é a sessão?", "Quero pagar", "Quanto ficou?", "Posso pagar?", "Realizar pagamento", "Fazer o pagamento","Quanto deu?", "Quero pagar", "Pagamento"],
+                "responses": ["O ingresso custa R$ 36,00", "A sessão custa R$ 36,00", "Seu pagamento será realizado adiante!", "Valor do ingresso/sessão: R$ 36,00","Valor: R$ 36,00", "Ingresso: R$ 36,00", "Favor realizar o pagamento: R$ 36,00","Sua sessão custa: R$ 36,00", "Seu ingresso custa: R$ 36,00", "O seu pagamento deverá ser de: R$ 36,00"],
+                "context_set": ""
+        },
+        {
+                "tag": "funcionamento",
+                "patterns": ["Qual o horario de fechamento?", "Abre que horas?", "horario de funcionamento","Qual o horário de abertura?", "Que horas abre?", "Fecha que horas?", "Funciona até que horas?", "Vai ate que horas?", "Até que horas o cinema funciona?", "Me informa o horário de funcionamento por gentileza?", "Quais dias da semana o cinema funciona?"],
+                "responses": ["Nós estamos abertos das 10h ás 22hs de terça à domingo!", "Abrimos as 10 horas!", "Fechamos as 22 horas", "O cinema funcioa até as 22 horas", "Funcionamos de Terça a Domingo", "Vai até as 22 horas", "De 10 as 22 horas!", "Funciona até 22 horas!", "Iniciamos as 10 horas", "Funcionamos de Terça a Domingo, de 10 as 22 horas!"],
+                "context_set": ""
+        },
+        {
+                "tag": "salas",
+                "patterns": ["Qual a minha sala?", "Qual a sala da minha sessão?", "Para onde devo ir?","Qual a sala do meu filme?", "Qual o número da sala?", "Já posso ir para a sala?", "A sala já está disponível?", "Me diga a sala", "Me informe a sala", "Gostaria de saber a sala da sessão"],
+                "responses": ["Favor se dirigir até a sala 10", "Sua sala é a 10!", "Sua sessão vai iniciar na sala 10", "Pode ir até a sala 10", "A sala 10 te espera!", "Que tal dar um pulinho até a sala 10?", "Seu filme irá começar na sala 10!", "A sala 10 é o seu destino", "A sessão te aguarda na sala 10!", "Estamos ansiosos te aguardando na sala 10!"],
+                "context_set": ""   
+        },
+        {
+                "tag": "novidade",
+                "patterns": ["Tem novidade no cinema?","Tem novos filmes?","Vão entrar filmes novos na próxima semana?","Quais as novidades do dia?","O que temos de novo?","Tem alguma novidade?","Tem novos filmes?","Tem bons filmes para próxima semana?","Tem novidade para entrar em cartas?","Alguma novidade?"],
+                "responses": ["Na próxima semana temos novidades sim! Na sala 2 vai entrar Acqua Man 2","Não temos novidade hoje!","Não temos novidade na próxima semana!","Amanhã temos novidade, na sala 1 irá entrar 'Curinga'!","Temos novidade sim, venha conferir e se divertir","Hoje não há novidades!","Na próxima semana temos varias novidades","Hoje temos várias novidade, na sala 1 'O Poço' e sala 2 'Resgte'","Não há novidades hoje, mas na proxima semana teremos várias novidades","Temos novidade hoje e na próxima semana!"],
+                "context_set": ""  
+        },
+        {
+                "tag": "endereço",
+                "patterns": ["Onde vocês estão localizados?", "Qual o endereço do cinema?", "Pode me dizer onde fica o cinema?", "Vocês estão localizados aonde?", "Qual a localização atual de vocês?", "Existe mais de um cinema de vocês na cidade?", "Como faço pra ir até vocês?", "Vocês estão situados aonde?", "Me informe a localização do cinema", "Assistir Coringa","Como chegar até vocês?"],
+                "responses": ["Estamos localizados no Noroeste da cidade, no shopping Belzonti, no piso 4!"],
+                "context_set": ""
+        }
+   ]
+}
