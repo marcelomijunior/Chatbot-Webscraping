@@ -43,6 +43,9 @@ Agora é só executar o arquivo chatbot.py
 
 
 Likedin:
+
 Arthur Conrado - https://www.linkedin.com/in/arthur-conrado-lima/
+
 Marcelo Junior - https://www.linkedin.com/in/marcelo-de-miranda-junior-44993917a/
+
 Nilton Lima - https://www.linkedin.com/in/nilton-ferreira-de-lima-55471345/
